@@ -1,0 +1,78 @@
+{
+    "header": {
+        "otherLanguage": "English",
+        "otherLanguageUrl": "english.html",
+        "subtitle": "Desenvolvedor de Software",
+        "resume_0": "Programador com 9 anos de experiência",
+        "resume_1": "Atualmente trabalhando com Node.js e Angular, e experimentando Vue.js e Jakarta EE.",
+        "city": "São José dos Campos - SP, Brasil"
+    },
+    "aboutMe": {
+        "title": "Sobre Mim",
+        "text_0": "Iniciei na área de programação em <span class=\"italic\">2012</span>, criando sites utilizando <span class=\"font-semibold\">PHP, Javascript, CSS e HTML</span>.<br />Já em <span class=\"italic\">2013</span> comecei a utilizar o banco de dados <span class=\"font-semibold\">Mysql</span> para a contrução de sites e blogs mais elaborados.",
+        "text_1": "Em <span class=\"italic\">2016</span>, iniciei meus estudos de <span class=\"font-semibold\">C# e Programação Orientação a Objetos</span> para criar bibliotecas visando facilitar o desenvolvimento de projetos na <span class=\"font-semibold\">Unity Engine</span>. Ainda neste ano trabalhei com otimização de sites para terceiros.",
+        "text_2": "Em <span class=\"italic\">2017</span> fui contratado pela empresa <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-800 hover:border-b border-blue-800\">Reploy Soluções Corporativas</a>, onde atuo até o momento desenvolvendo sistemas e aplicativos utilizando <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular e JSF</span>.",
+        "text_3": "Sou um profissional e entusiasta na área de programação, e estou sempre em busca de oportunidades de aprendizado e desenvolvimento pessoal e profissional. Ambiciono formação em uma instituição acadêmica que traga em sua filosofia excelência e inovação.",
+        "access": "Acessar"
+    },
+    "jobs": [
+        {
+            "logo": "assets/images/logo-iblue-consulting.png",
+            "date": "2021 - Presente",
+            "job": "Desenvolvedor Backend",
+            "link": "https://www.iblueconsulting.com.br"
+        },
+        {
+            "logo": "assets/images/logo-reploy.png",
+            "date": "2017 - 2021",
+            "job": "Desenvolvedor de software",
+            "link": "https://reploy.com.br"
+        },
+        {
+            "logo": "assets/images/logo-lozep.png",
+            "date": "2019 - Presente",
+            "job": "Fundador e Desenvolvedor",
+            "link": "http://www.lzptec.com.br"
+        },
+        {
+            "logo": "assets/images/logo-mind.png",
+            "date": "2018 - 2020",
+            "job": "Web Designer",
+            "link": "http://web.archive.org/web/20200127154724/http://mindflayerstudios.com/index.html"
+        }
+    ],
+    "skill": {
+        "title": "Experiência",
+        "node": {
+            "title": "Node.js",
+            "text_0": "Servidores <span class=\"font-semibold\">REST</span> utilizando <span class=\"font-semibold\">ExpressJS, TypeOrm e MariaDB</span>.",
+            "text_1": "Atualmente criando uma biblioteca para <span class=\"font-semibold\">REST</span> compatível com vários servidores(<span class=\"font-semibold\">Express, Koa e Nano-Express</span>)."
+        },
+        "java": {
+            "title": "Java",
+            "text_0": "Diversos sistemas construidos com <span class=\"font-semibold\">JSF, CDI, Primefaces e MariaDB</span>.",
+            "text_1": "Atualmente migrando alguns projetos de <span class=\"font-semibold\">JAVA EE</span> para <span class=\"font-semibold\">JAKARTA EE</span>."
+        },
+        "db": {
+            "title": "Banco de dados",
+            "text_0": "<span class=\"font-semibold\">MariaDB, MSSQL e SQlite</span>, estudando <span class=\"font-semibold\">PostgreSql e NoSql</span>.",
+            "text_1": "Atualmente desenvolvendo um aplicativo de transporte utilizando <span class=\"font-semibold\">MSSQL e Node.js</span>."
+        },
+        "csharp": {
+            "title": "C#",
+            "text_0": "<span class=\"font-semibold\">C#</span> voltado para desenvolvimento na <span class=\"font-semibold\">Unity Engine</span>.",
+            "text_1": "Atualmente estudando <span class=\"font-semibold\">.NET 5</span>."
+        },
+        "ionic": {
+            "title": "Ionic",
+            "text_0": "Vários aplicativos desenvolvidos com <span class=\"font-semibold\">IONIC e CAPACITOR</span> para <span class=\"font-semibold\">ANDROID e IOS</span>.",
+            "text_1": "Um total de 10 aplicativos na <span class=\"font-semibold\">Google Play Store</span> e 4 aplicativos na <span class=\"font-semibold\">Apple App Store</span>."
+        },
+        "unity": {
+            "title": "Unity",
+            "text_0": "Experiência na criação de bibliotecas para facilitar o desenvolvimento de jogos.",
+            "text_1": "Atualmente estudando as novas ferramentas da Unity: <span class=\"font-semibold\">Job System e ECS</span>."
+        }
+    },
+    "footer": "Esse site foi construido utilizando <a href=\"https://tailwindcss.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">TailwindCSS</a>, <a href=\"https://handlebarsjs.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Handlebars</a> e <a href=\"https://vitejs.dev/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Vite</a>."
+}

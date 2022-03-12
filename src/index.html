@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>André Antônio Posso da Silva</title>
+
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/fav/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/fav/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/fav/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/fav/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header class="bg-gray-100 w-full text-right">
+    <nav class="bg-gray-800 text-white py-2 px-4 text-lg">
+      <a href="{{header.otherLanguageUrl}}">{{header.otherLanguage}} <i class="far fa-arrow-right"></i></a>
+    </nav>
+
+    <figure class="max-w-5xl m-auto md:flex rounded-xl p-8 md:p-0 w-full md:justify-start">
+      <img class="w-32 md:w-48 md:h-auto md:rounded-none rounded-md mx-auto md:mx-0" src="./assets/images/profile.jpg"
+        alt="" width="384" height="512">
+
+      <!-- Side note -->
+      <div class="pt-4 md:px-6 text-center md:text-left">
+        <h1 class="text-gray-800 font-bold text-3xl">
+          André Antônio Posso da Silva
+        </h1>
+        <h2 class="text-gray-500 font-normal text-xl py-1">
+          {{header.subtitle}} <i class="fad fa-laptop-code"></i>
+        </h2>
+
+        <p class="text-lg font-semibold pt-2">
+          {{header.resume_0}}
+        </p>
+        <p class="text-lg font-semibold">
+          {{header.resume_1}}
+        </p>
+
+        <div class="flex md:justify-start justify-center items-center pt-4">
+          <p class="pr-4">
+            <i class="far fa-city pr-1"></i>
+            <a href="https://www.google.com/maps/?q=-23.226288,-45.916450" target="_blank"
+              class="text-blue-800 block sm:inline-block hover:border-b border-blue-800">
+              {{header.city}}
+            </a>
+          </p>
+          <p class="pr-4">
+            <i class="far fa-envelope pr-1"></i>
+            <a href="mailto:admin@lzptec.com.br"
+              class="text-blue-800 block sm:inline-block hover:border-b border-blue-800">
+              admin@lzptec.com.br
+            </a>
+          </p>
+        </div>
+      </div>
+
+    </figure>
+  </header>
+  <main>
+    <section id="about-me" class="bg-gray-200 w-full h-full text-center py-3 px-8 overflow-hidden relative">
+      <h1 class="font-bold text-2xl mb-4">
+        {{aboutMe.title}}
+      </h1>
+
+      <div class="max-w-5xl w-full m-auto p-4 space-y-3 text-lg flex-grow">
+        <p>
+          {{{aboutMe.text_0}}}
+        </p>
+
+        <p>
+          {{{aboutMe.text_1}}}
+        </p>
+
+        <p>
+          {{{aboutMe.text_2}}}
+        </p>
+
+        <p>
+          {{{aboutMe.text_3}}}
+        </p>
+      </div>
+
+      <div
+        class=" flex-wrap flex-shrink w-full max-w-5xl m-auto flex justify-center items-center relative overflow-hidden px-4 pb-2 pt-0 content-center"
+        style="min-width: 16rem;">
+        {{#each jobs}}
+        <div class="text-center pt-4 w-72">
+          <img class="max-h-20 m-auto py-2 px-4" src="{{this.logo}}" />
+          <h1 class="block px-4 text-lg">{{this.date}}</h1>
+          <p class="text-gray-600 text-sm">{{this.job}}</p>
+          <a class="text-blue-800 hover:border-b border-blue-800" href="{{this.link}}"
+            target="_blank">{{../aboutMe.access}} <i class="far fa-external-link fa-fw"></i></a>
+        </div>
+        {{/each}}
+      </div>
+    </section>
+
+    <section id="skill" class="bg-gray-300 w-full h-full timeline overflow-hidden relative">
+      <div class="skill-title">
+        <h1 class="font-bold text-2xl mb-8">
+          {{skill.title}}
+        </h1>
+      </div>
+
+      <div class="relative wrap overflow-hidden p-4 h-full text-white">
+        <div
+          class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border hidden md:block md:left-1/2 left-11"
+          style="margin-top:-1rem;">
+        </div>
+
+        <!-- First Item -->
+        <div class="timeline-container ">
+          <div class="timeline-content">
+            <h3 class="font-bold text-lg">
+              <span class="text-green-300">95%</span>
+              <a href="https://nodejs.org" target="_blank" class="hover:border-b border-gray-300">
+                {{{skill.node.title}}}
+              </a>
+            </h3>
+            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-green-300 h-1.5" style="width: 95%;"></div>
+            </div>
+
+            <p class="text-sm leading-snug tracking-wide text-opacity-100">
+              {{{skill.node.text_0}}}
+            </p>
+            <p class="text-sm leading-snug tracking-wide text-opacity-100 pt-2">
+              {{{skill.node.text_1}}}
+            </p>
+          </div>
+
+          <div class="timeline-info">
+            <i class="fab fa-node fa-fw text-3xl"></i>
+            <i class="fab fa-java fa-fw text-3xl"></i>
+          </div>
+
+          <div class="timeline-content">
+            <h3 class="font-bold text-lg">
+              <span class="text-yellow-400">75%</span>
+              <a href="https://www.java.com" target="_blank" class="hover:border-b border-gray-300">
+                {{{skill.java.title}}}
+              </a>
+            </h3>
+            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-yellow-400 h-1.5" style="width: 75%;"></div>
+            </div>
+
+            <p class="text-sm leading-snug tracking-wide text-opacity-100">
+              {{{skill.java.text_0}}}
+            </p>
+
+            <p class="text-sm leading-snug tracking-wide text-opacity-100 pt-2">
+              {{{skill.java.text_1}}}
+            </p>
+          </div>
+        </div>
+
+        <!-- Second Item -->
+        <div class="timeline-container">
+          <div class="timeline-content">
+            <h3 class="font-bold text-lg">
+              <span class="text-indigo-300">80%</span>
+              {{{skill.db.title}}}
+            </h3>
+            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-indigo-300 h-1.5" style="width: 80%;"></div>
+            </div>
+
+            <p class="text-sm leading-snug tracking-wide text-opacity-100">
+              {{{skill.db.text_0}}}
+            </p>
+            <p class="text-sm leading-snug tracking-wide text-opacity-100 pt-2">
+              {{{skill.db.text_1}}}
+            </p>
+          </div>
+
+          <div class="timeline-info">
+            <i class="far fa-database fa-fw text-3xl"></i>
+            <img src="assets/icons/csharp.svg" class="fa-fw text-3xl inline-block filter invert"
+              style="width: 1em;height: 1em;">
+          </div>
+
+          <div class="timeline-content">
+            <h3 class="font-bold text-lg">
+              <span class="text-blue-300">65%</span>
+              <a href="https://docs.microsoft.com/pt-br/dotnet/csharp" target="_blank"
+                class="hover:border-b border-gray-300">
+                {{{skill.csharp.title}}}
+              </a>
+            </h3>
+            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-blue-300 h-1.5" style="width: 65%;"></div>
+            </div>
+
+            <p class="text-sm leading-snug tracking-wide text-opacity-100">
+              {{{skill.csharp.text_0}}}
+            </p>
+            <p class="text-sm leading-snug tracking-wide text-opacity-100 pt-2">
+              {{{skill.csharp.text_1}}}
+            </p>
+          </div>
+        </div>
+
+        <!-- Third Item -->
+        <div class="timeline-container">
+          <div class="timeline-content">
+            <h3 class="font-bold text-lg">
+              <span class="text-pink-400">85%</span>
+              <a href="https://ionicframework.com" target="_blank" class="hover:border-b border-gray-300">
+                {{{skill.ionic.title}}}
+              </a>
+            </h3>
+            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-pink-400 h-1.5" style="width: 85%;"></div>
+            </div>
+
+            <p class="text-sm leading-snug tracking-wide text-opacity-100">
+              {{{skill.ionic.text_0}}}
+            </p>
+            <p class="text-sm leading-snug tracking-wide text-opacity-100 pt-2">
+              {{{skill.ionic.text_1}}}
+            </p>
+          </div>
+
+          <div class="timeline-info">
+            <img src="assets/icons/logo-ionic.svg" class="fa-fw text-3xl inline-block filter invert"
+              style="width: 1em;height: 1em;">
+            <i class="fab fa-unity fa-fw text-3xl"></i>
+          </div>
+
+          <div class="timeline-content text-white">
+            <h3 class="font-bold text-lg">
+              <span class="text-purple-400">45%</span>
+              <a href="https://unity.com" target="_blank" class="hover:border-b border-gray-300">
+                {{{skill.unity.title}}}
+              </a>
+            </h3>
+            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-purple-400 h-1.5" style="width: 45%;"></div>
+            </div>
+
+            <p class="text-sm leading-snug tracking-wide text-opacity-100">
+              {{{skill.unity.text_0}}}
+            </p>
+            <p class="text-sm leading-snug tracking-wide text-opacity-100 pt-2">
+              {{{skill.unity.text_1}}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-gray-800 text-white p-4">
+    <div class="max-w-5xl flex justify-between self-center">
+      <p>
+        {{{footer}}}
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a041c8a6f6.js" crossorigin="anonymous"></script>
+  <script type="module" src="./main.ts"></script>
+</body>
+
+</html>

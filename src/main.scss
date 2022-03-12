@@ -1,0 +1,89 @@
+@import "assets/fonts/Inter/inter.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .skill-title {
+    @apply z-20 flex-shrink-0 order-1 flex md:mb-0 mb-4 relative items-end self-center justify-center mx-auto text-white;
+    width: 10rem /* 160px */;
+    height: 10rem /* 160px */;
+    margin-top: -5rem;
+  }
+
+  .skill-title::before {
+    @apply bg-gray-800 shadow-xl absolute;
+    width: 10rem /* 160px */;
+    height: 10rem /* 160px */;
+    content: "";
+    z-index: -1;
+    transform: rotate(-45deg);
+  }
+
+  .timeline {
+    .timeline-container {
+      @apply md:mb-8 md:mt-8 flex justify-between items-stretch w-full flex-wrap sm:flex-nowrap;
+
+      .timeline-content {
+        @apply order-1 bg-gray-500 rounded-lg shadow-xl md:w-5/12 m-2 px-6 py-4 flex-grow;
+      }
+
+      .timeline-info {
+        @apply z-20 flex-shrink-0 order-1 md:flex items-center self-center hidden justify-between text-white mx-8;
+        width: 6rem /* 96px */;
+        height: 6rem /* 96px */;
+      }
+
+      .timeline-info::before {
+        @apply bg-gray-800 shadow-xl;
+        width: 6rem /* 96px */;
+        height: 6rem /* 96px */;
+        content: "";
+        position: absolute;
+        z-index: -1;
+        transform: rotate(-45deg);
+      }
+
+      .timeline-info:after {
+        @apply border-gray-400;
+        width: 6rem /* 96px */;
+        height: 6rem /* 96px */;
+        content: "";
+        position: absolute;
+        border-right-style: solid;
+        border-right-width: 1px;
+        transform: translateX(calc(-50% + 2px));
+      }
+    }
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  visibility: visible;
+  z-index: 100;
+}
