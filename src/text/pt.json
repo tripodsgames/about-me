@@ -3,16 +3,19 @@
         "otherLanguage": "English",
         "otherLanguageUrl": "english.html",
         "subtitle": "Desenvolvedor de Software",
-        "resume_0": "Programador com 9 anos de experiência",
+        "resume_0": "Programador com 10 anos de experiência",
         "resume_1": "Atualmente trabalhando com Node.js e Angular, e experimentando Vue.js e Jakarta EE.",
         "city": "São José dos Campos - SP, Brasil"
     },
     "aboutMe": {
         "title": "Sobre Mim",
-        "text_0": "Iniciei na área de programação em <span class=\"italic\">2012</span>, criando sites utilizando <span class=\"font-semibold\">PHP, Javascript, CSS e HTML</span>.<br />Já em <span class=\"italic\">2013</span> comecei a utilizar o banco de dados <span class=\"font-semibold\">Mysql</span> para a contrução de sites e blogs mais elaborados.",
-        "text_1": "Em <span class=\"italic\">2016</span>, iniciei meus estudos de <span class=\"font-semibold\">C# e Programação Orientação a Objetos</span> para criar bibliotecas visando facilitar o desenvolvimento de projetos na <span class=\"font-semibold\">Unity Engine</span>. Ainda neste ano trabalhei com otimização de sites para terceiros.",
-        "text_2": "Em <span class=\"italic\">2017</span> fui contratado pela empresa <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-800 hover:border-b border-blue-800\">Reploy Soluções Corporativas</a>, onde atuo até o momento desenvolvendo sistemas e aplicativos utilizando <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular e JSF</span>.",
-        "text_3": "Sou um profissional e entusiasta na área de programação, e estou sempre em busca de oportunidades de aprendizado e desenvolvimento pessoal e profissional. Ambiciono formação em uma instituição acadêmica que traga em sua filosofia excelência e inovação.",
+        "text": [
+            "Iniciei na área de programação em <span class=\"italic\">2012</span>, criando sites utilizando <span class=\"font-semibold\">PHP, Javascript, CSS e HTML</span>.<br />Já em <span class=\"italic\">2013</span> comecei a utilizar o banco de dados <span class=\"font-semibold\">Mysql</span> para a contrução de sites e blogs mais elaborados.",
+            "Em <span class=\"italic\">2016</span>, iniciei meus estudos de <span class=\"font-semibold\">C# e Programação Orientação a Objetos</span> para criar bibliotecas visando facilitar o desenvolvimento de projetos na <span class=\"font-semibold\">Unity Engine</span>. Ainda neste ano trabalhei com otimização de sites para terceiros.",
+            "Em <span class=\"italic\">2017</span> fui contratado pela empresa <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-800 hover:border-b border-blue-800\">Reploy Soluções Corporativas</a>, onde atuei desenvolvendo sistemas e aplicativos utilizando <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular e JSF</span>.",
+            "Atualmente estou na <a href=\"https://www.iblueconsulting.com.br\" target=\"_blank\" class=\"text-blue-800 hover:border-b border-blue-800\">Iblue Consulting</a> desenvolvendo sistemas utilizando <span class=\"font-semibold\">Node.js, Mysql, Angular e AWS</span>.",
+            "Sou um profissional e entusiasta na área de programação, e estou sempre em busca de oportunidades de aprendizado e desenvolvimento pessoal e profissional. Ambiciono formação em uma instituição acadêmica que traga em sua filosofia excelência e inovação."
+        ],
         "access": "Acessar"
     },
     "jobs": [
@@ -46,22 +49,22 @@
         "node": {
             "title": "Node.js",
             "text_0": "Servidores <span class=\"font-semibold\">REST</span> utilizando <span class=\"font-semibold\">ExpressJS, TypeOrm e MariaDB</span>.",
-            "text_1": "Atualmente criando uma biblioteca para <span class=\"font-semibold\">REST</span> compatível com vários servidores(<span class=\"font-semibold\">Express, Koa e Nano-Express</span>)."
+            "text_1": "Atualmente criando uma biblioteca <span class=\"font-semibold\">REST</span> compatível com vários servidores(<span class=\"font-semibold\">Express, Koa e Hyper-Express</span>)."
         },
         "java": {
             "title": "Java",
             "text_0": "Diversos sistemas construidos com <span class=\"font-semibold\">JSF, CDI, Primefaces e MariaDB</span>.",
-            "text_1": "Atualmente migrando alguns projetos de <span class=\"font-semibold\">JAVA EE</span> para <span class=\"font-semibold\">JAKARTA EE</span>."
+            "text_1": "Trabalhei com migração de projetos <span class=\"font-semibold\">JAVA EE</span> para <span class=\"font-semibold\">JAKARTA EE</span>."
         },
         "db": {
             "title": "Banco de dados",
             "text_0": "<span class=\"font-semibold\">MariaDB, MSSQL e SQlite</span>, estudando <span class=\"font-semibold\">PostgreSql e NoSql</span>.",
-            "text_1": "Atualmente desenvolvendo um aplicativo de transporte utilizando <span class=\"font-semibold\">MSSQL e Node.js</span>."
+            "text_1": "Atualmente trabalhando em sistemas utilizando <span class=\"font-semibold\">MYSQL e Node.js</span>."
         },
         "csharp": {
             "title": "C#",
             "text_0": "<span class=\"font-semibold\">C#</span> voltado para desenvolvimento na <span class=\"font-semibold\">Unity Engine</span>.",
-            "text_1": "Atualmente estudando <span class=\"font-semibold\">.NET 5</span>."
+            "text_1": "Atualmente estudando <span class=\"font-semibold\">.NET 6</span>."
         },
         "ionic": {
             "title": "Ionic",

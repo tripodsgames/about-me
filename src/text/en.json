@@ -3,16 +3,18 @@
         "otherLanguage": "Português",
         "otherLanguageUrl": "/about-me/",
         "subtitle": "Software Developer",
-        "resume_0": "Programmer with 9 of experience",
+        "resume_0": "Programmer with 10 years of experience",
         "resume_1": "Currently working with Node.js and Angular, and experimenting with Vue.js and Jakarta EE.",
         "city": "São José dos Campos - SP, Brazil"
     },
     "aboutMe": {
         "title": "About me",
-        "text_0": "I started working with programming in <span class=\"italic\">2012</span>, creating sites using <span class=\"font-semibold\">PHP, Javascript, CSS and HTML</span>.<br />In <span class=\"italic\">2013</span> I started using <span class=\"font-semibold\">Mysql</span> to build more elaborate sites and blogs.",
-        "text_1": "In <span class=\"italic\">2016</span> I started studying <span class=\"font-semibold\">C# and Object Oriented Programming</span> to create libraries that facilitated the development of projects in the <span class=\"font-semibold\">Unity Engine</span>. In that year I also worked with the optimization of websites for contractors.",
-        "text_2": "In <span class=\"italic\">2017</span> I started working at <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-800 hover:border-b border-blue-800\">Reploy Soluções Corporativas</a> (\"Reploy Corporate Solutions\"), where I still work developing systems and apps using <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular and JSF</span>.",
-        "text_3": "I'm a professional and a programming enthusiast, and always seeking for opportunities to learn and grow personally and professionally. I look forward to a degree in an academic institution whose core values are excellence and innovation.",
+        "text": [
+            "I started working with programming in <span class=\"italic\">2012</span>, creating sites using <span class=\"font-semibold\">PHP, Javascript, CSS and HTML</span>.<br />In <span class=\"italic\">2013</span> I started using <span class=\"font-semibold\">Mysql</span> to build more elaborate sites and blogs.",
+            "In <span class=\"italic\">2016</span> I started studying <span class=\"font-semibold\">C# and Object Oriented Programming</span> to create libraries that facilitated the development of projects in the <span class=\"font-semibold\">Unity Engine</span>. In that year I also worked with the optimization of websites for contractors.",
+            "In <span class=\"italic\">2017</span> I started working at <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-800 hover:border-b border-blue-800\">Reploy Soluções Corporativas</a> (\"Reploy Corporate Solutions\"), where I work developing systems and apps using <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular and JSF</span>.",
+            "I'm a professional and a programming enthusiast, and always seeking for opportunities to learn and grow personally and professionally. I look forward to a degree in an academic institution whose core values are excellence and innovation."
+        ],
         "access": "Access"
     },
     "jobs": [
@@ -46,22 +48,22 @@
         "node": {
             "title": "Node.js",
             "text_0": "<span class=\"font-semibold\">REST</span> servers using <span class=\"font-semibold\">ExpressJS, TypeOrm and MariaDB</span>.",
-            "text_1": "Currently working on a library for <span class=\"font-semibold\">REST</span> compatible with many servers(<span class=\"font-semibold\">Express, Koa and Nano-Express</span>)."
+            "text_1": "Currently working on a <span class=\"font-semibold\">REST</span> library compatible with many servers(<span class=\"font-semibold\">Express, Koa and Hyper-Express</span>)."
         },
         "java": {
             "title": "Java",
             "text_0": "Developed many systems using <span class=\"font-semibold\">JSF, CDI, Primefaces and MariaDB</span>.",
-            "text_1": "Currently migrating some projects from <span class=\"font-semibold\">JAVA EE</span> to <span class=\"font-semibold\">JAKARTA EE</span>."
+            "text_1": "I worked with project migration from <span class=\"font-semibold\">JAVA EE</span> to <span class=\"font-semibold\">JAKARTA EE</span>."
         },
         "db": {
             "title": "Database",
             "text_0": "<span class=\"font-semibold\">MariaDB, MSSQL e SQlite</span>, studying <span class=\"font-semibold\">PostgreSql and NoSql</span>.",
-            "text_1": "Currently developing a transportation app using <span class=\"font-semibold\">MSSQL and Node.js</span>."
+            "text_1": "Currently working on multiple systems using <span class=\"font-semibold\">MYSQL and Node.js</span>."
         },
         "csharp": {
             "title": "C#",
             "text_0": "<span class=\"font-semibold\">C#</span> development in the <span class=\"font-semibold\">Unity Engine</span>.",
-            "text_1": "Currently studying <span class=\"font-semibold\">.NET 5</span>."
+            "text_1": "Currently studying <span class=\"font-semibold\">.NET 6</span>."
         },
         "ionic": {
             "title": "Ionic",

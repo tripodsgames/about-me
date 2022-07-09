@@ -19,7 +19,8 @@ const config = {
     root: 'src',
     base: '/about-me/',
     build: {
-        outDir: '../dist'
+        outDir: '../dist',
+        emptyOutDir: true
     },
     plugins: [
         virtualHtml({
