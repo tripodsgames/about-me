@@ -7,7 +7,7 @@ import pt from './src/text/pt.json';
 const pages = {
     index: '/src/index.html',
     english: '/src/index.html',
-}
+};
 
 const pageData = {
     '/index.html': pt,

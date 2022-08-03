@@ -24,8 +24,8 @@
 </head>
 
 <body>
-  <header class="bg-gray-100 w-full text-right">
-    <nav class="bg-gray-800 text-white py-2 px-4 text-lg">
+  <header class="bg-black w-full text-right">
+    <nav class="bg-zinc-900 text-white py-2 px-4 text-lg">
       <a href="{{header.otherLanguageUrl}}">{{header.otherLanguage}} <i class="far fa-arrow-right"></i></a>
     </nav>
 
@@ -35,33 +35,43 @@
 
       <!-- Side note -->
       <div class="pt-4 md:px-6 text-center md:text-left">
-        <h1 class="text-gray-800 font-bold text-3xl">
-          André Antônio Posso da Silva
+        <h1 class="text-zinc-100 font-bold text-3xl">
+          André Posso
         </h1>
-        <h2 class="text-gray-500 font-normal text-xl py-1">
+        <h2 class="text-zinc-300 font-normal text-xl py-1">
           {{header.subtitle}} <i class="fad fa-laptop-code"></i>
         </h2>
 
-        <p class="text-lg font-semibold pt-2">
+        <p class="text-lg text-zinc-100 font-semibold pt-2">
           {{header.resume_0}}
         </p>
-        <p class="text-lg font-semibold">
+
+        <p class="text-lg text-zinc-100 font-semibold">
           {{header.resume_1}}
         </p>
 
-        <div class="flex md:justify-start justify-center items-center pt-4">
-          <p class="pr-4">
+        <div class="flex md:justify-start text-zinc-200 justify-center items-center pt-4 flex-wrap">
+          <p class="pr-4 flex flex-row items-center h-10">
             <i class="far fa-city pr-1"></i>
-            <a href="https://www.google.com/maps/?q=-23.226288,-45.916450" target="_blank"
-              class="text-blue-800 block sm:inline-block hover:border-b border-blue-800">
+            <a href="https://www.google.com/maps/?q=-23.2194, -45.8920" target="_blank"
+              class="text-blue-300 block sm:inline-block border-b border-black hover:border-blue-300">
               {{header.city}}
             </a>
           </p>
-          <p class="pr-4">
+          <p class="pr-4 flex flex-row items-center h-10">
             <i class="far fa-envelope pr-1"></i>
             <a href="mailto:admin@lzptec.com.br"
-              class="text-blue-800 block sm:inline-block hover:border-b border-blue-800">
+              class="text-blue-300 block sm:inline-block border-b border-black hover:border-blue-300">
               admin@lzptec.com.br
+            </a>
+          </p>
+        </div>
+        <div class="flex md:justify-start text-zinc-200 justify-center items-center pt-1 flex-wrap">
+          <p class="pr-4 flex flex-row items-center h-10">
+            <i class="fab fa-github pr-1"></i>
+            <a href="https://github.com/tripodsgames" target="_blank"
+              class="text-blue-300 block sm:inline-block border-b border-black hover:border-blue-300">
+              GitHub
             </a>
           </p>
         </div>
@@ -70,7 +80,8 @@
     </figure>
   </header>
   <main>
-    <section id="about-me" class="bg-gray-200 w-full h-full text-center py-3 px-8 overflow-hidden relative">
+    <section id="about-me"
+      class="bg-zinc-800 w-full h-full text-center py-3 px-8 overflow-hidden relative text-zinc-200">
       <h1 class="font-bold text-2xl mb-4">
         {{aboutMe.title}}
       </h1>
@@ -88,17 +99,17 @@
         style="min-width: 16rem;">
         {{#each jobs}}
         <div class="text-center pt-4 w-72">
-          <img class="max-h-20 m-auto py-2 px-4" src="{{this.logo}}" />
+          <img class="max-h-20 m-auto py-2 px-4 bg-white rounded-lg" src="{{this.logo}}" />
           <h1 class="block px-4 text-lg">{{this.date}}</h1>
-          <p class="text-gray-600 text-sm">{{this.job}}</p>
-          <a class="text-blue-800 hover:border-b border-blue-800" href="{{this.link}}"
+          <p class="text-sm">{{this.job}}</p>
+          <a class="text-blue-300 hover:border-b border-blue-300" href="{{this.link}}"
             target="_blank">{{../aboutMe.access}} <i class="far fa-external-link fa-fw"></i></a>
         </div>
         {{/each}}
       </div>
     </section>
 
-    <section id="skill" class="bg-gray-300 w-full h-full timeline overflow-hidden relative">
+    <section id="skill" class="w-full h-full timeline overflow-hidden relative">
       <div class="skill-title">
         <h1 class="font-bold text-2xl mb-8">
           {{skill.title}}
@@ -107,7 +118,7 @@
 
       <div class="relative wrap overflow-hidden p-4 h-full text-white">
         <div
-          class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border hidden md:block md:left-1/2 left-11"
+          class="border-2-2 absolute border-opacity-20 border-zinc-800 h-full border hidden md:block md:left-1/2 left-11"
           style="margin-top:-1rem;">
         </div>
 
@@ -115,13 +126,13 @@
         <div class="timeline-container ">
           <div class="timeline-content">
             <h3 class="font-bold text-lg">
-              <span class="text-green-300">95%</span>
-              <a href="https://nodejs.org" target="_blank" class="hover:border-b border-gray-300">
+              <span class="text-green-400">95%</span>
+              <a href="https://nodejs.org" target="_blank" class="hover:border-b border-zinc-300">
                 {{{skill.node.title}}}
               </a>
             </h3>
-            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-green-300 h-1.5" style="width: 95%;"></div>
+            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-green-400 h-1.5" style="width: 99%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -139,13 +150,13 @@
 
           <div class="timeline-content">
             <h3 class="font-bold text-lg">
-              <span class="text-yellow-400">75%</span>
-              <a href="https://www.java.com" target="_blank" class="hover:border-b border-gray-300">
+              <span class="text-yellow-400">70%</span>
+              <a href="https://www.java.com" target="_blank" class="hover:border-b border-zinc-300">
                 {{{skill.java.title}}}
               </a>
             </h3>
-            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-yellow-400 h-1.5" style="width: 75%;"></div>
+            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-yellow-400 h-1.5" style="width: 70%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -162,11 +173,11 @@
         <div class="timeline-container">
           <div class="timeline-content">
             <h3 class="font-bold text-lg">
-              <span class="text-indigo-300">80%</span>
+              <span class="text-indigo-400">80%</span>
               {{{skill.db.title}}}
             </h3>
-            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-indigo-300 h-1.5" style="width: 80%;"></div>
+            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-indigo-400 h-1.5" style="width: 80%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -185,14 +196,14 @@
 
           <div class="timeline-content">
             <h3 class="font-bold text-lg">
-              <span class="text-blue-300">65%</span>
+              <span class="text-[#a179dc]">50%</span>
               <a href="https://docs.microsoft.com/pt-br/dotnet/csharp" target="_blank"
-                class="hover:border-b border-gray-300">
+                class="hover:border-b border-zinc-300">
                 {{{skill.csharp.title}}}
               </a>
             </h3>
-            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-blue-300 h-1.5" style="width: 65%;"></div>
+            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-[#a179dc] h-1.5" style="width: 50%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -206,15 +217,16 @@
 
         <!-- Third Item -->
         <div class="timeline-container">
+
           <div class="timeline-content">
             <h3 class="font-bold text-lg">
-              <span class="text-pink-400">85%</span>
-              <a href="https://ionicframework.com" target="_blank" class="hover:border-b border-gray-300">
+              <span class="text-pink-400">80%</span>
+              <a href="https://ionicframework.com" target="_blank" class="hover:border-b border-zinc-300">
                 {{{skill.ionic.title}}}
               </a>
             </h3>
-            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-pink-400 h-1.5" style="width: 85%;"></div>
+            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-pink-400 h-1.5" style="width: 80%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -233,13 +245,13 @@
 
           <div class="timeline-content text-white">
             <h3 class="font-bold text-lg">
-              <span class="text-purple-400">45%</span>
-              <a href="https://unity.com" target="_blank" class="hover:border-b border-gray-300">
+              <span class="text-zinc-400">30%</span>
+              <a href="https://unity.com" target="_blank" class="hover:border-b border-zinc-300">
                 {{{skill.unity.title}}}
               </a>
             </h3>
-            <div class="bg-gray-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-purple-400 h-1.5" style="width: 45%;"></div>
+            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-zinc-400 h-1.5" style="width: 40%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -249,11 +261,60 @@
               {{{skill.unity.text_1}}}
             </p>
           </div>
+
+        </div>
+
+        <!-- Fourth Item -->
+        <div class="timeline-container">
+
+          <div class="timeline-content">
+            <h3 class="font-bold text-lg">
+              <span class="text-red-400">90%</span>
+              <a href="https://angular.io" target="_blank" class="hover:border-b border-zinc-300">
+                {{{skill.angular.title}}}
+              </a>
+            </h3>
+            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-red-400 h-1.5" style="width: 90%;"></div>
+            </div>
+
+            <p class="text-sm leading-snug tracking-wide text-opacity-100">
+              {{{skill.angular.text_0}}}
+            </p>
+            <p class="text-sm leading-snug tracking-wide text-opacity-100 pt-2">
+              {{{skill.angular.text_1}}}
+            </p>
+          </div>
+
+          <div class="timeline-info">
+            <i class="fab fa-angular fa-fw text-3xl"></i>
+            <i class="fab fa-golang fa-fw text-3xl"></i>
+          </div>
+
+          <div class="timeline-content text-white">
+            <h3 class="font-bold text-lg">
+              <span class="text-[#79d4fd]">20%</span>
+              <a href="https://go.dev" target="_blank" class="hover:border-b border-zinc-300">
+                {{{skill.golang.title}}}
+              </a>
+            </h3>
+            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
+              <div class="bg-[#79d4fd] h-1.5" style="width: 20%;"></div>
+            </div>
+
+            <p class="text-sm leading-snug tracking-wide text-opacity-100">
+              {{{skill.golang.text_0}}}
+            </p>
+            <p class="text-sm leading-snug tracking-wide text-opacity-100 pt-2">
+              {{{skill.golang.text_1}}}
+            </p>
+          </div>
+
         </div>
       </div>
     </section>
   </main>
-  <footer class="bg-gray-800 text-white p-4">
+  <footer class="bg-zinc-800 text-white p-4">
     <div class="max-w-5xl flex justify-between self-center">
       <p>
         {{{footer}}}

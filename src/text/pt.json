@@ -3,8 +3,8 @@
         "otherLanguage": "English",
         "otherLanguageUrl": "english.html",
         "subtitle": "Desenvolvedor de Software",
-        "resume_0": "Programador com 10 anos de experiência",
-        "resume_1": "Atualmente trabalhando com Node.js e Angular, e experimentando Vue.js e Jakarta EE.",
+        "resume_0": "Atualmente pensando no próximo passo",
+        "resume_1": "Trabalhando com Node.js e Angular, e experimentando Vue.js e Golang.",
         "city": "São José dos Campos - SP, Brasil"
     },
     "aboutMe": {
@@ -12,9 +12,9 @@
         "text": [
             "Iniciei na área de programação em <span class=\"italic\">2012</span>, criando sites utilizando <span class=\"font-semibold\">PHP, Javascript, CSS e HTML</span>.<br />Já em <span class=\"italic\">2013</span> comecei a utilizar o banco de dados <span class=\"font-semibold\">Mysql</span> para a contrução de sites e blogs mais elaborados.",
             "Em <span class=\"italic\">2016</span>, iniciei meus estudos de <span class=\"font-semibold\">C# e Programação Orientação a Objetos</span> para criar bibliotecas visando facilitar o desenvolvimento de projetos na <span class=\"font-semibold\">Unity Engine</span>. Ainda neste ano trabalhei com otimização de sites para terceiros.",
-            "Em <span class=\"italic\">2017</span> fui contratado pela empresa <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-800 hover:border-b border-blue-800\">Reploy Soluções Corporativas</a>, onde atuei desenvolvendo sistemas e aplicativos utilizando <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular e JSF</span>.",
-            "Atualmente estou na <a href=\"https://www.iblueconsulting.com.br\" target=\"_blank\" class=\"text-blue-800 hover:border-b border-blue-800\">Iblue Consulting</a> desenvolvendo sistemas utilizando <span class=\"font-semibold\">Node.js, Mysql, Angular e AWS</span>.",
-            "Sou um profissional e entusiasta na área de programação, e estou sempre em busca de oportunidades de aprendizado e desenvolvimento pessoal e profissional. Ambiciono formação em uma instituição acadêmica que traga em sua filosofia excelência e inovação."
+            "Em <span class=\"italic\">2017</span> fui contratado pela empresa <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-300 hover:border-b border-blue-300\">Reploy Soluções Corporativas</a>, onde atuei desenvolvendo sistemas e aplicativos utilizando <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular e JSF</span>.",
+            "Atualmente estou na <a href=\"https://www.iblueconsulting.com.br\" target=\"_blank\" class=\"text-blue-300 hover:border-b border-blue-300\">Iblue Consulting</a> desenvolvendo sistemas utilizando <span class=\"font-semibold\">Node.js, Mysql, Angular e AWS</span>.",
+            "Sou um profissional e entusiasta na área de programação, e estou sempre em busca de oportunidades de aprendizado e desenvolvimento pessoal e profissional."
         ],
         "access": "Acessar"
     },
@@ -58,7 +58,7 @@
         },
         "db": {
             "title": "Banco de dados",
-            "text_0": "<span class=\"font-semibold\">MariaDB, MSSQL e SQlite</span>, estudando <span class=\"font-semibold\">PostgreSql e NoSql</span>.",
+            "text_0": "<span class=\"font-semibold\">MariaDB, MSSQL e SQlite</span>, estudando <span class=\"font-semibold\">PostgreSql</span>.",
             "text_1": "Atualmente trabalhando em sistemas utilizando <span class=\"font-semibold\">MYSQL e Node.js</span>."
         },
         "csharp": {
@@ -75,6 +75,16 @@
             "title": "Unity",
             "text_0": "Experiência na criação de bibliotecas para facilitar o desenvolvimento de jogos.",
             "text_1": "Atualmente estudando as novas ferramentas da Unity: <span class=\"font-semibold\">Job System e ECS</span>."
+        },
+        "angular": {
+            "title": "Angular",
+            "text_0": "Vários aplicativos desenvolvidos com <span class=\"font-semibold\">IONIC, CAPACITOR e ANGULAR</span> para <span class=\"font-semibold\">ANDROID e IOS</span>.",
+            "text_1": "Manutenção e desenvolvimento de sites utilizando ANGULAR."
+        },
+        "golang": {
+            "title": "Golang",
+            "text_0": "Atualmente estudando Golang para utilizar em lambdas(AWS).",
+            "text_1": "Utilizando para CLI no momento."
         }
     },
     "footer": "Esse site foi construido utilizando <a href=\"https://tailwindcss.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">TailwindCSS</a>, <a href=\"https://handlebarsjs.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Handlebars</a> e <a href=\"https://vitejs.dev/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Vite</a>."

@@ -3,8 +3,8 @@
         "otherLanguage": "Português",
         "otherLanguageUrl": "/about-me/",
         "subtitle": "Software Developer",
-        "resume_0": "Programmer with 10 years of experience",
-        "resume_1": "Currently working with Node.js and Angular, and experimenting with Vue.js and Jakarta EE.",
+        "resume_0": "Currently thinking about the next step",
+        "resume_1": "Working with Node.js and Angular, and experimenting with Vue.js and Golang.",
         "city": "São José dos Campos - SP, Brazil"
     },
     "aboutMe": {
@@ -12,8 +12,9 @@
         "text": [
             "I started working with programming in <span class=\"italic\">2012</span>, creating sites using <span class=\"font-semibold\">PHP, Javascript, CSS and HTML</span>.<br />In <span class=\"italic\">2013</span> I started using <span class=\"font-semibold\">Mysql</span> to build more elaborate sites and blogs.",
             "In <span class=\"italic\">2016</span> I started studying <span class=\"font-semibold\">C# and Object Oriented Programming</span> to create libraries that facilitated the development of projects in the <span class=\"font-semibold\">Unity Engine</span>. In that year I also worked with the optimization of websites for contractors.",
-            "In <span class=\"italic\">2017</span> I started working at <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-800 hover:border-b border-blue-800\">Reploy Soluções Corporativas</a> (\"Reploy Corporate Solutions\"), where I work developing systems and apps using <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular and JSF</span>.",
-            "I'm a professional and a programming enthusiast, and always seeking for opportunities to learn and grow personally and professionally. I look forward to a degree in an academic institution whose core values are excellence and innovation."
+            "In <span class=\"italic\">2017</span> I started working at <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-300 hover:border-b border-blue-300\">Reploy Soluções Corporativas</a> (\"Reploy Corporate Solutions\"), where I work developing systems and apps using <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular and JSF</span>.",
+            "I'm currently working at <a href=\"https://www.iblueconsulting.com.br\" target=\"_blank\" class=\"text-blue-300 hover:border-b border-blue-300\">Iblue Consulting</a> developing systems using <span class=\"font-semibold\">Node.js, Mysql, Angular and AWS</span>.",
+            "I'm a professional and a programming enthusiast, and always seeking for opportunities to learn and grow personally and professionally."
         ],
         "access": "Access"
     },
@@ -57,7 +58,7 @@
         },
         "db": {
             "title": "Database",
-            "text_0": "<span class=\"font-semibold\">MariaDB, MSSQL e SQlite</span>, studying <span class=\"font-semibold\">PostgreSql and NoSql</span>.",
+            "text_0": "<span class=\"font-semibold\">MariaDB, MSSQL e SQlite</span>, studying <span class=\"font-semibold\">PostgreSql</span>.",
             "text_1": "Currently working on multiple systems using <span class=\"font-semibold\">MYSQL and Node.js</span>."
         },
         "csharp": {
@@ -67,13 +68,23 @@
         },
         "ionic": {
             "title": "Ionic",
-            "text_0": "Developed many apps using <span class=\"font-semibold\">IONIC and CAPACITOR</span> for <span class=\"font-semibold\">ANDROID and IOS</span>.",
+            "text_0": "Developed many apps using <span class=\"font-semibold\">IONIC, CAPACITOR and ANGULAR</span> for <span class=\"font-semibold\">ANDROID and IOS</span>.",
             "text_1": "A total of 10 apps in <span class=\"font-semibold\">Google Play Store</span> and 4 apps in the <span class=\"font-semibold\">Apple App Store</span>."
         },
         "unity": {
             "title": "Unity",
             "text_0": "Expertise creating libraries that facilitate game development.",
             "text_1": "Currently studying the newly released Unity tools: <span class=\"font-semibold\">Job System and ECS</span>."
+        },
+        "angular": {
+            "title": "Angular",
+            "text_0": "Vários aplicativos desenvolvidos com <span class=\"font-semibold\">IONIC, CAPACITOR e ANGULAR</span> para <span class=\"font-semibold\">ANDROID e IOS</span>.",
+            "text_1": "Manutenção e desenvolvimento de sites utilizando ANGULAR."
+        },
+        "golang": {
+            "title": "Golang",
+            "text_0": "Currently studying Golang to use in lambdas(AWS).",
+            "text_1": "Currently using for CLI development."
         }
     },
     "footer": "This website was built using <a href=\"https://tailwindcss.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">TailwindCSS</a>, <a href=\"https://handlebarsjs.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Handlebars</a> and <a href=\"https://vitejs.dev/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Vite</a>."
