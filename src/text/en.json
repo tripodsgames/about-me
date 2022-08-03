@@ -87,5 +87,6 @@
             "text_1": "Currently using for CLI development."
         }
     },
-    "footer": "This website was built using <a href=\"https://tailwindcss.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">TailwindCSS</a>, <a href=\"https://handlebarsjs.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Handlebars</a> and <a href=\"https://vitejs.dev/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Vite</a>."
+    "footer": "This website was built using <a href=\"https://tailwindcss.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">TailwindCSS</a>, <a href=\"https://handlebarsjs.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Handlebars</a> and <a href=\"https://vitejs.dev/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Vite</a>.",
+    "sourceCode": "Source Code"
 }

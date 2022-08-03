@@ -87,5 +87,6 @@
             "text_1": "Utilizando para CLI no momento."
         }
     },
-    "footer": "Esse site foi construido utilizando <a href=\"https://tailwindcss.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">TailwindCSS</a>, <a href=\"https://handlebarsjs.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Handlebars</a> e <a href=\"https://vitejs.dev/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Vite</a>."
+    "footer": "Esse site foi construido utilizando <a href=\"https://tailwindcss.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">TailwindCSS</a>, <a href=\"https://handlebarsjs.com/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Handlebars</a> e <a href=\"https://vitejs.dev/\" target=\"_blank\" class=\"font-bold hover:border-b border-white\">Vite</a>.",
+    "sourceCode": "Código Fonte"
 }
