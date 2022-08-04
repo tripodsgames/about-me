@@ -1,36 +1,34 @@
 // vite.config.js
-import handlebars from 'vite-plugin-handlebars';
+import Handlebars from 'handlebars';
+import path from 'path';
 import virtualHtml from 'vite-plugin-virtual-html';
 import en from './src/text/en.json';
 import pt from './src/text/pt.json';
 
 const pages = {
-    index: '/src/index.html',
-    english: '/src/index.html',
-};
-
-const pageData = {
-    '/index.html': pt,
-    '/english.html': en
+    index: {
+        template: '/src/index.html',
+        data: pt
+    },
+    english: {
+        template: '/src/index.html',
+        data: en
+    }
 };
 
 /** @type {import('vite').UserConfig} */
 const config = {
-    root: 'src',
+    root: path.join(__dirname, "src"),
     base: '/about-me/',
     build: {
-        outDir: '../dist',
-        emptyOutDir: true
+        outDir: path.join(__dirname, "dist"),
+        emptyOutDir: false
     },
     plugins: [
         virtualHtml({
             pages: pages,
-            indexPage: 'index'
-        }),
-        handlebars({
-            context(pagePath) {
-                return pageData[pagePath];
-            }
+            indexPage: 'index',
+            render: (template, data) => Handlebars.compile(template)(data)
         })
     ]
 };
