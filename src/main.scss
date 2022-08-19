@@ -71,3 +71,37 @@ html {
 .has-tooltip:hover .tooltip {
   @apply visible z-[100];
 }
+
+.lazy.timeline-content {
+  opacity: 0;
+  transform: translateY(-50%);
+  will-change: transform, opacity;
+}
+
+.animate.timeline-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 1s, opacity 1.5s;
+}
+
+.lazy.timeline-info {
+  opacity: 0;
+  transform: translateY(-50%);
+  will-change: transform, opacity;
+}
+
+.animate.timeline-info {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 1s, opacity 1.5s;
+}
+
+.lazy.bar {
+  width: 0px;
+  will-change: width;
+}
+
+.animate.bar {
+  width: var(--animate-w);
+  transition: width 2s;
+}
