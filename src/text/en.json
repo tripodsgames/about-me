@@ -18,30 +18,41 @@
         ],
         "access": "Access"
     },
-    "jobs": [
+    "works": [
         {
             "logo": "assets/images/logo-iblue-consulting.png",
+            "name": "IBlue Consulting",
             "date": "2021 - Current",
             "job": "Backend Developer",
             "link": "https://www.iblueconsulting.com.br"
         },
         {
             "logo": "assets/images/logo-reploy.png",
+            "name": "Reploy Soluções Corporativas",
             "date": "2017 - 2021",
             "job": "Software Developer",
             "link": "https://reploy.com.br"
         },
         {
             "logo": "assets/images/logo-lozep.png",
+            "name": "Lozep Tecnologia",
             "date": "2019 - Current",
             "job": "Founder and Developer",
             "link": "http://www.lzptec.com.br"
         },
         {
+            "logo": "assets/images/logo-ocosoft.png",
+            "name": "Ocosoft",
+            "date": "2014 - 2018",
+            "job": "Web Designer",
+            "link": "https://lzptec.com/portfolio/ocosoft/"
+        },
+        {
             "logo": "assets/images/logo-mind.png",
+            "name": "Mind Flayer Studios",
             "date": "2018 - 2020",
             "job": "Web Designer",
-            "link": "http://web.archive.org/web/20200127154724/http://mindflayerstudios.com/index.html"
+            "link": "https://lzptec.com/portfolio/mind/"
         }
     ],
     "skill": {

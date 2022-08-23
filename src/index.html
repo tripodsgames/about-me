@@ -130,11 +130,12 @@
       <div
         class=" flex-wrap flex-shrink w-full max-w-5xl m-auto flex justify-center items-center relative overflow-hidden px-4 pb-2 pt-0 content-center"
         style="min-width: 16rem;">
-        {{#each jobs}}
+        {{#each works}}
         <div class="text-center pt-4 w-72">
           <img data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-scale="1.1"
             class="max-h-20 m-auto py-2 px-4 bg-white rounded-lg" src="{{this.logo}}" />
-          <h1 class="block px-4 text-lg">{{this.date}}</h1>
+          <h1 class="block px-4 text-base">{{this.name}}</h1>
+          <h1 class="block px-4 text-sm">{{this.date}}</h1>
           <p class="text-sm">{{this.job}}</p>
           <a class="text-blue-300 hover:border-b border-blue-300" href="{{this.link}}"
             target="_blank">{{../aboutMe.access}} <i class="far fa-external-link fa-fw"></i></a>
