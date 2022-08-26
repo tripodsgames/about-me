@@ -19,7 +19,7 @@ const pages = {
 /** @type {import('vite').UserConfig} */
 const config = {
     root: path.join(__dirname, "src"),
-    base: '/about-me/',
+    base: '/',
     build: {
         outDir: path.join(__dirname, "dist"),
         emptyOutDir: false
