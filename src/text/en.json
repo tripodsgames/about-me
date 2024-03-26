@@ -1,7 +1,11 @@
 {
+    "language": "en",
     "header": {
-        "otherLanguage": "Português",
-        "otherLanguageUrl": "/",
+        "otherLanguage": {
+            "code": "pt-BR",
+            "name": "Português",
+            "url": "/"
+        },
         "subtitle": "Software Developer",
         "resume_0": "Currently thinking about the next step",
         "resume_1": "Working with Node.js and Angular, and experimenting with Vue.js and Golang.",
@@ -13,16 +17,23 @@
             "I started working with programming in <span class=\"italic\">2012</span>, creating sites using <span class=\"font-semibold\">PHP, Javascript, CSS and HTML</span>.<br />In <span class=\"italic\">2013</span> I started using <span class=\"font-semibold\">Mysql</span> to build more elaborate sites and blogs.",
             "In <span class=\"italic\">2016</span> I started studying <span class=\"font-semibold\">C# and Object Oriented Programming</span> to create libraries that facilitated the development of projects in the <span class=\"font-semibold\">Unity Engine</span>. In that year I also worked with the optimization of websites for contractors.",
             "In <span class=\"italic\">2017</span> I started working at <a href=\"https://reploy.com.br\" target=\"_blank\" class=\"text-blue-300 hover:border-b border-blue-300\">Reploy Soluções Corporativas</a> (\"Reploy Corporate Solutions\"), where I work developing systems and apps using <span class=\"font-semibold\">Java, Node.js, MariaDB, Mssql, Ionic, Angular and JSF</span>.",
-            "I'm currently working at <a href=\"https://www.iblueconsulting.com.br\" target=\"_blank\" class=\"text-blue-300 hover:border-b border-blue-300\">Iblue Consulting</a> developing systems using <span class=\"font-semibold\">Node.js, Mysql, Angular and AWS</span>.",
+            "I'm currently working at <a href=\"https://www.coopersystem.com.br\" target=\"_blank\" class=\"text-blue-300 hover:border-b border-blue-300\">Coopersystem</a> developing systems and libraries using <span class=\"font-semibold\">Node.js, Mysql, Angular and AWS</span>.",
             "I'm a professional and a programming enthusiast, and always seeking for opportunities to learn and grow personally and professionally."
         ],
         "access": "Access"
     },
     "works": [
         {
+            "logo": "assets/images/logo-coopersystem.png",
+            "name": "Coopersystem",
+            "date": "2023 - Current",
+            "job": "Fullstack Developer",
+            "link": "https://www.coopersystem.com.br"
+        },
+        {
             "logo": "assets/images/logo-iblue-consulting.png",
             "name": "IBlue Consulting",
-            "date": "2021 - Current",
+            "date": "2021 - 2023",
             "job": "Backend Developer",
             "link": "https://www.iblueconsulting.com.br"
         },

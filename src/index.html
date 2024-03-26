@@ -25,7 +25,7 @@
                       .=*:
 -->
 <!DOCTYPE html>
-<html>
+<html lang="{{language}}">
 
 <head>
   <meta charset="utf-8" />
@@ -70,7 +70,7 @@
 <body>
   <header class="bg-black w-full text-right">
     <nav class="bg-zinc-900 text-white py-2 px-4 text-lg">
-      <a href="{{header.otherLanguageUrl}}">{{header.otherLanguage}} <i class="far fa-arrow-right"></i></a>
+      <a lang="{{header.otherLanguage.code}}" href="{{header.otherLanguage.url}}">{{header.otherLanguage.name}} <i class="far fa-arrow-right"></i></a>
     </nav>
 
     <div class="max-w-5xl m-auto flex md:flex-row flex-col rounded-xl md:p-0 w-full md:justify-start">
@@ -148,7 +148,7 @@
         {{#each works}}
         <div class="text-center pt-4 w-72">
           <img data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-scale="1.1"
-            class="max-h-20 m-auto py-2 px-4 bg-white rounded-lg" src="{{this.logo}}" />
+            class="max-h-20 m-auto py-2 px-4 bg-white rounded-lg" src="{{this.logo}}" alt="{{this.name}} Logo" />
           <h1 class="block px-4 text-base">{{this.name}}</h1>
           <h1 class="block px-4 text-sm">{{this.date}}</h1>
           <p class="text-sm">{{this.job}}</p>
@@ -241,7 +241,7 @@
           <div class="timeline-info lazy">
             <i class="far fa-database fa-fw text-3xl"></i>
             <img src="assets/icons/csharp.svg" class="fa-fw text-3xl inline-block filter invert"
-              style="width: 1em;height: 1em;">
+              style="width: 1em;height: 1em;" alt="C#">
           </div>
 
           <div class="timeline-content lazy">
@@ -289,19 +289,19 @@
 
           <div class="timeline-info lazy">
             <img src="assets/icons/logo-ionic.svg" class="fa-fw text-3xl inline-block filter invert"
-              style="width: 1em;height: 1em;">
+              style="width: 1em;height: 1em;" alt="Ionic">
             <i class="fab fa-unity fa-fw text-3xl"></i>
           </div>
 
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-zinc-400">30%</span>
+              <span class="text-zinc-400">25%</span>
               <a href="https://unity.com" target="_blank" class="hover:border-b border-zinc-300">
                 {{{skill.unity.title}}}
               </a>
             </h3>
             <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-zinc-400 h-1.5 lazy bar" style="--animate-w: 40%;"></div>
+              <div class="bg-zinc-400 h-1.5 lazy bar" style="--animate-w: 25%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -343,13 +343,13 @@
 
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-[#79d4fd]">20%</span>
+              <span class="text-[#79d4fd]">50%</span>
               <a href="https://go.dev" target="_blank" class="hover:border-b border-zinc-300">
                 {{{skill.golang.title}}}
               </a>
             </h3>
             <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-[#79d4fd] h-1.5 lazy bar" style="--animate-w: 20%;"></div>
+              <div class="bg-[#79d4fd] h-1.5 lazy bar" style="--animate-w: 50%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
