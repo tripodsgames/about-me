@@ -70,7 +70,8 @@
 <body>
   <header class="bg-black w-full text-right">
     <nav class="bg-zinc-900 text-white py-2 px-4 text-lg">
-      <a lang="{{header.otherLanguage.code}}" href="{{header.otherLanguage.url}}">{{header.otherLanguage.name}} <i class="far fa-arrow-right"></i></a>
+      <a lang="{{header.otherLanguage.code}}" href="{{header.otherLanguage.url}}">{{header.otherLanguage.name}} <i
+          class="far fa-arrow-right"></i></a>
     </nav>
 
     <div class="max-w-5xl m-auto flex md:flex-row flex-col rounded-xl md:p-0 w-full md:justify-start">
@@ -176,37 +177,37 @@
         <div class="timeline-container ">
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-green-400">95%</span>
-              <a href="https://nodejs.org" target="_blank" class="hover:border-b border-zinc-300">
-                {{{skill.node.title}}}
+              <a href="https://ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank" class="hover:border-b border-zinc-300 text-[#f7df1e]">
+                {{{skill.js.title}}}
               </a>
             </h3>
-            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-green-400 h-1.5 lazy bar" style="--animate-w: 95%;"></div>
+
+            <div class="bg-zinc-200 overflow-hidden mb-3">
+              <div class="bg-[#f7df1e] h-1.5 lazy bar float-right" style="--animate-w: 100%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
-              {{{skill.node.text_0}}}
+              {{{skill.js.text_0}}}
             </p>
             <p class="text-sm leading-snug tracking-wide text-opacity-100 pt-2">
-              {{{skill.node.text_1}}}
+              {{{skill.js.text_1}}}
             </p>
           </div>
 
           <div class="timeline-info lazy">
-            <i class="fab fa-node fa-fw text-3xl"></i>
-            <i class="fab fa-java fa-fw text-3xl"></i>
+            <i class="fab fa-js fa-fw text-3xl text-[#f7df1e]"></i>
+            <i class="fab fa-java fa-fw text-3xl text-[#ED8B00]"></i>
           </div>
 
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-yellow-400">50%</span>
-              <a href="https://www.java.com" target="_blank" class="hover:border-b border-zinc-300">
+              <a href="https://www.java.com" target="_blank" class="hover:border-b border-zinc-300 text-[#ED8B00]">
                 {{{skill.java.title}}}
               </a>
             </h3>
-            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-yellow-400 h-1.5 lazy bar" style="--animate-w: 50%;"></div>
+
+            <div class="bg-zinc-200 overflow-hidden mb-3">
+              <div class="bg-[#ED8B00] h-1.5 lazy bar" style="--animate-w: 100%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -223,11 +224,13 @@
         <div class="timeline-container">
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-indigo-400">80%</span>
-              {{{skill.db.title}}}
+              <span class="text-indigo-400">
+                {{{skill.db.title}}}
+              </span>
             </h3>
-            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-indigo-400 h-1.5 lazy bar" style="--animate-w: 80%;"></div>
+
+            <div class="bg-zinc-200 overflow-hidden mb-3">
+              <div class="bg-indigo-400 h-1.5 lazy bar float-right" style="--animate-w: 100%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -239,21 +242,21 @@
           </div>
 
           <div class="timeline-info lazy">
-            <i class="far fa-database fa-fw text-3xl"></i>
-            <img src="assets/icons/csharp.svg" class="fa-fw text-3xl inline-block filter invert"
+            <i class="far fa-database fa-fw text-3xl text-indigo-400"></i>
+            <img src="assets/icons/csharp.svg" class="fa-fw text-3xl inline-block csharp"
               style="width: 1em;height: 1em;" alt="C#">
           </div>
 
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-[#a179dc]">50%</span>
               <a href="https://docs.microsoft.com/pt-br/dotnet/csharp" target="_blank"
-                class="hover:border-b border-zinc-300">
+                class="hover:border-b border-zinc-300 text-[#a179dc]">
                 {{{skill.csharp.title}}}
               </a>
             </h3>
-            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-[#a179dc] h-1.5 lazy bar" style="--animate-w: 50%;"></div>
+
+            <div class="bg-zinc-200 overflow-hidden mb-3">
+              <div class="bg-[#a179dc] h-1.5 lazy bar" style="--animate-w: 100%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -270,13 +273,13 @@
 
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-pink-400">80%</span>
-              <a href="https://ionicframework.com" target="_blank" class="hover:border-b border-zinc-300">
+              <a href="https://ionicframework.com" target="_blank" class="hover:border-b border-zinc-300 text-pink-400">
                 {{{skill.ionic.title}}}
               </a>
             </h3>
-            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-pink-400 h-1.5 lazy bar" style="--animate-w: 80%;"></div>
+
+            <div class="bg-zinc-200 overflow-hidden mb-3">
+              <div class="bg-pink-400 h-1.5 lazy bar float-right" style="--animate-w: 100%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -288,20 +291,20 @@
           </div>
 
           <div class="timeline-info lazy">
-            <img src="assets/icons/logo-ionic.svg" class="fa-fw text-3xl inline-block filter invert"
+            <img src="assets/icons/logo-ionic.svg" class="fa-fw text-3xl inline-block ionic"
               style="width: 1em;height: 1em;" alt="Ionic">
-            <i class="fab fa-unity fa-fw text-3xl"></i>
+            <i class="fab fa-unity fa-fw text-3xl text-zinc-400"></i>
           </div>
 
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-zinc-400">25%</span>
-              <a href="https://unity.com" target="_blank" class="hover:border-b border-zinc-300">
+              <a href="https://unity.com" target="_blank" class="hover:border-b border-zinc-300 text-zinc-400">
                 {{{skill.unity.title}}}
               </a>
             </h3>
-            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-zinc-400 h-1.5 lazy bar" style="--animate-w: 25%;"></div>
+
+            <div class="bg-zinc-200 overflow-hidden mb-3">
+              <div class="bg-zinc-400 h-1.5 lazy bar" style="--animate-w: 100%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -319,13 +322,13 @@
 
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-red-400">90%</span>
-              <a href="https://angular.io" target="_blank" class="hover:border-b border-zinc-300">
+              <a href="https://angular.io" target="_blank" class="hover:border-b border-zinc-300 text-red-500">
                 {{{skill.angular.title}}}
               </a>
             </h3>
-            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-red-400 h-1.5 lazy bar" style="--animate-w: 90%;"></div>
+
+            <div class="bg-zinc-200 overflow-hidden mb-3">
+              <div class="bg-red-500 h-1.5 lazy bar float-right" style="--animate-w: 100%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">
@@ -337,19 +340,19 @@
           </div>
 
           <div class="timeline-info lazy">
-            <i class="fab fa-angular fa-fw text-3xl"></i>
-            <i class="fab fa-golang fa-fw text-3xl"></i>
+            <i class="fab fa-angular fa-fw text-3xl text-red-500"></i>
+            <i class="fab fa-golang fa-fw text-3xl text-[#79d4fd]"></i>
           </div>
 
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
-              <span class="text-[#79d4fd]">50%</span>
-              <a href="https://go.dev" target="_blank" class="hover:border-b border-zinc-300">
+              <a href="https://go.dev" target="_blank" class="hover:border-b border-zinc-300 text-[#79d4fd]">
                 {{{skill.golang.title}}}
               </a>
             </h3>
-            <div class="bg-zinc-200 rounded-full overflow-hidden mb-3">
-              <div class="bg-[#79d4fd] h-1.5 lazy bar" style="--animate-w: 50%;"></div>
+
+            <div class="bg-zinc-200 overflow-hidden mb-3">
+              <div class="bg-[#79d4fd] h-1.5 lazy bar" style="--animate-w: 100%;"></div>
             </div>
 
             <p class="text-sm leading-snug tracking-wide text-opacity-100">

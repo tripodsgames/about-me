@@ -68,10 +68,10 @@
     ],
     "skill": {
         "title": "Experience",
-        "node": {
-            "title": "Node.js",
-            "text_0": "<span class=\"font-semibold\">REST</span> servers using <span class=\"font-semibold\">ExpressJS, TypeOrm and MariaDB</span>.",
-            "text_1": "Currently working on a <span class=\"font-semibold\">REST</span> library compatible with many servers(<span class=\"font-semibold\">Express, Koa and Hyper-Express</span>)."
+        "js": {
+            "title": "Javascript",
+            "text_0": "Experience with <span class=\"font-semibold\">frontend</span> and <span class=\"font-semibold\">backend</span> development using javascript.",
+            "text_1": "Extensive knowledge of <span class=\"font-semibold\">ExpressJS, Sequelize, JQuery and other libraries</span>."
         },
         "java": {
             "title": "Java",
@@ -86,7 +86,7 @@
         "csharp": {
             "title": "C#",
             "text_0": "<span class=\"font-semibold\">C#</span> development in the <span class=\"font-semibold\">Unity Engine</span>.",
-            "text_1": "Currently studying <span class=\"font-semibold\">.NET 6</span>."
+            "text_1": "Experience in projects using <span class=\"font-semibold\">.NET 7</span>."
         },
         "ionic": {
             "title": "Ionic",
@@ -96,12 +96,12 @@
         "unity": {
             "title": "Unity",
             "text_0": "Expertise creating libraries that facilitate game development.",
-            "text_1": "Currently studying the newly released Unity tools: <span class=\"font-semibold\">Job System and ECS</span>."
+            "text_1": "Experience with some of Unity's new technologies like <span class=\"font-semibold\">Job System and ECS</span>."
         },
         "angular": {
             "title": "Angular",
-            "text_0": "Vários aplicativos desenvolvidos com <span class=\"font-semibold\">IONIC, CAPACITOR e ANGULAR</span> para <span class=\"font-semibold\">ANDROID e IOS</span>.",
-            "text_1": "Manutenção e desenvolvimento de sites utilizando ANGULAR."
+            "text_0": "Experience with development and maintenance of Angular frontends(v6-v16).",
+            "text_1": "Maintenance and development of websites using ANGULAR."
         },
         "golang": {
             "title": "Golang",

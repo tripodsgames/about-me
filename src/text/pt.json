@@ -68,10 +68,10 @@
     ],
     "skill": {
         "title": "Experiência",
-        "node": {
-            "title": "Node.js",
-            "text_0": "Servidores <span class=\"font-semibold\">REST</span> utilizando <span class=\"font-semibold\">ExpressJS, TypeOrm e MariaDB</span>.",
-            "text_1": "Atualmente criando uma biblioteca <span class=\"font-semibold\">REST</span> compatível com vários servidores(<span class=\"font-semibold\">Express, Koa e Hyper-Express</span>)."
+        "js": {
+            "title": "Javascript",
+            "text_0": "Experiência com desenvolvimento <span class=\"font-semibold\">frontend</span> e <span class=\"font-semibold\">backend</span> utilizando javascript.",
+            "text_1": "Amplo conhecimento com as bibliotecas <span class=\"font-semibold\">ExpressJS, Sequelize, JQuery e outras</span>."
         },
         "java": {
             "title": "Java",
@@ -86,21 +86,21 @@
         "csharp": {
             "title": "C#",
             "text_0": "<span class=\"font-semibold\">C#</span> voltado para desenvolvimento na <span class=\"font-semibold\">Unity Engine</span>.",
-            "text_1": "Atualmente estudando <span class=\"font-semibold\">.NET 6</span>."
+            "text_1": "Experiência em projetos utilizando <span class=\"font-semibold\">.NET 7</span>."
         },
         "ionic": {
             "title": "Ionic",
-            "text_0": "Vários aplicativos desenvolvidos com <span class=\"font-semibold\">IONIC e CAPACITOR</span> para <span class=\"font-semibold\">ANDROID e IOS</span>.",
+            "text_0": "Vários aplicativos desenvolvidos com <span class=\"font-semibold\">Ionic, Angular e Capacitor</span> para <span class=\"font-semibold\">ANDROID e IOS</span>.",
             "text_1": "Um total de 10 aplicativos na <span class=\"font-semibold\">Google Play Store</span> e 4 aplicativos na <span class=\"font-semibold\">Apple App Store</span>."
         },
         "unity": {
             "title": "Unity",
             "text_0": "Experiência na criação de bibliotecas para facilitar o desenvolvimento de jogos.",
-            "text_1": "Atualmente estudando as novas ferramentas da Unity: <span class=\"font-semibold\">Job System e ECS</span>."
+            "text_1": "Experiência com algumas das novas tecnologias da Unity como <span class=\"font-semibold\">Job System e ECS</span>."
         },
         "angular": {
             "title": "Angular",
-            "text_0": "Vários aplicativos desenvolvidos com <span class=\"font-semibold\">IONIC, CAPACITOR e ANGULAR</span> para <span class=\"font-semibold\">ANDROID e IOS</span>.",
+            "text_0": "Experiência com desenvolvimento e manutenção de frontends Angular(v6-v16).",
             "text_1": "Manutenção e desenvolvimento de sites utilizando ANGULAR."
         },
         "golang": {
