@@ -4,6 +4,7 @@ import path from 'path';
 import virtualHtml from 'vite-plugin-virtual-html';
 import en from './src/text/en.json';
 import pt from './src/text/pt.json';
+import type { UserConfig } from 'vite';
 
 const pages = {
     index: {
@@ -16,8 +17,7 @@ const pages = {
     }
 };
 
-/** @type {import('vite').UserConfig} */
-const config = {
+const config: UserConfig = {
     root: path.join(__dirname, "src"),
     base: '/',
     build: {
