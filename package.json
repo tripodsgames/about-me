@@ -10,18 +10,18 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.14",
-    "@tsconfig/node20": "^20.1.4",
-    "@types/node": "20",
+    "@tailwindcss/postcss": "^4.1.8",
+    "@tsconfig/node20": "^20.1.5",
+    "@types/node": "22",
     "autoprefixer": "10.4.21",
     "handlebars": "^4.7.8",
-    "postcss": "8.5.3",
+    "postcss": "8.5.4",
     "rimraf": "^6.0.1",
-    "sass": "1.85.1",
-    "tailwindcss": "^4.0.14",
-    "typescript": "5.8.2",
-    "vite": "6.2.2",
-    "vite-plugin-virtual-html": "1.2.5"
+    "sass": "1.89.1",
+    "tailwindcss": "^4.1.8",
+    "typescript": "5.8.3",
+    "vite": "6.3.5",
+    "vite-plugin-virtual-html": "1.2.6"
   },
   "dependencies": {
     "vanilla-tilt": "1.8.1"
