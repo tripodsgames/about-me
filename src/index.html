@@ -69,33 +69,33 @@
 
 <body>
   <header class="bg-black w-full text-right">
-    <nav class="bg-zinc-900 text-white py-2 px-4 text-lg">
+    <nav class="bg-zinc-800 text-white py-2 px-4 text-lg">
       <a lang="{{header.otherLanguage.code}}" href="{{header.otherLanguage.url}}">{{header.otherLanguage.name}} <i
           class="far fa-arrow-right"></i></a>
     </nav>
 
-    <div class="max-w-5xl m-auto flex md:flex-row flex-col rounded-xl md:p-0 w-full md:justify-start">
-      <div class="w-80 min-w-max block p-0 mx-auto md:m-0 md:self-end">
+    <div class="max-w-7xl m-auto flex md:flex-row flex-col rounded-xl md:p-0 w-full md:justify-center">
+      <div class="w-80 min-w-max block pt-8 p-0 mx-auto md:m-0 md:self-end">
         <img data-tilt data-tilt-axis="x" data-tilt-max="15" data-tilt-speed="400" data-tilt-reverse="true"
           data-tilt-scale="1.05" data-tilt-full-page-listening
-          class="w-full max-w-xs h-auto md:rounded-none rounded-md mx-auto md:mx-0" src="./assets/images/profile.png"
+          class="w-full max-w-xs sm:max-w-sm h-auto md:rounded-none rounded-md mx-auto md:mx-0" src="./assets/images/profile.png"
           alt="">
       </div>
 
       <!-- Side note -->
-      <div class="pt-4 px-8 md:px-6 text-center md:text-left">
-        <h1 class="text-zinc-100 font-bold text-3xl">
+      <div class="pt-4 px-8 md:pt-8 md:px-6 text-center md:text-left">
+        <h1 class="text-zinc-100 font-bold text-3xl lg:text-4xl">
           André Posso
         </h1>
-        <h2 class="text-zinc-300 font-normal text-xl py-1">
+        <h2 class="text-zinc-300 font-normal text-xl lg:text-2xl py-1">
           {{header.subtitle}} <i class="fad fa-laptop-code"></i>
         </h2>
 
-        <p class="text-lg text-zinc-100 font-semibold pt-2">
+        <p class="text-lg lg:text-xl text-zinc-100 font-semibold pt-2">
           {{header.resume_0}}
         </p>
 
-        <p class="text-lg text-zinc-100 font-semibold">
+        <p class="text-lg lg:text-xl text-zinc-100 font-semibold">
           {{header.resume_1}}
         </p>
 
@@ -130,12 +130,12 @@
   </header>
   <main>
     <section id="about-me"
-      class="bg-zinc-800 w-full h-full text-center py-3 px-8 overflow-hidden relative text-zinc-200">
-      <h1 class="font-bold text-2xl mb-4">
+      class="bg-zinc-800 w-full h-full text-center pt-8 py-4 px-8 overflow-hidden relative text-zinc-200 shadow-2xl">
+      <h1 class="font-bold text-3xl mb-4">
         {{aboutMe.title}}
       </h1>
 
-      <div class="max-w-5xl w-full m-auto p-4 space-y-3 text-lg grow">
+      <div class="max-w-7xl w-full m-auto p-4 space-y-3 text-lg grow">
         {{#each aboutMe.text}}
         <p>
           {{{this}}}
@@ -144,10 +144,10 @@
       </div>
 
       <div
-        class="flex-wrap shrink w-full max-w-5xl m-auto flex justify-center items-center relative overflow-hidden px-4 pb-2 pt-0 content-center"
+        class="grid grid-cols-[repeat(auto-fit,19rem)] gap-4 w-full max-w-7xl m-auto justify-center items-center relative overflow-hidden px-4 pb-8 pt-8 content-center"
         style="min-width: 16rem;">
         {{#each works}}
-        <div class="text-center pt-4 w-72">
+        <div class="text-center pt-4 w-72 bg-zinc-700 rounded-lg shadow-xl">
           <img data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-scale="1.1"
             class="max-h-20 m-auto py-2 px-4 bg-white rounded-lg" src="{{this.logo}}" alt="{{this.name}} Logo" />
           <h1 class="block px-4 text-base">{{this.name}}</h1>
@@ -162,7 +162,7 @@
 
     <section id="skill" class="w-full h-full timeline overflow-hidden relative">
       <div class="skill-title">
-        <h1 class="font-bold text-2xl mb-8">
+        <h1 class="font-bold text-3xl mb-14">
           {{skill.title}}
         </h1>
       </div>
@@ -174,7 +174,7 @@
         </div>
 
         <!-- First Item -->
-        <div class="timeline-container ">
+        <div class="timeline-container">
           <div class="timeline-content lazy">
             <h3 class="font-bold text-lg">
               <a href="https://ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank" class="hover:border-b border-zinc-300 text-[#f7df1e]">
@@ -372,7 +372,7 @@
       <p>
         {{{footer}}}
       </p>
-      <p>
+      <p class="pt-4">
         <a href="https://github.com/tripodsgames/about-me" target="_blank">
           <i class="fab fa-github"></i>
           {{{sourceCode}}}

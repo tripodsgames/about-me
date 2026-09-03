@@ -2,12 +2,11 @@
 
 @layer components {
   .skill-title {
-    @apply z-20 shrink-0 order-1 flex md:mb-0 mb-4 relative items-end self-center justify-center mx-auto text-white w-40 h-40;
-    margin-top: -5rem;
+    @apply z-20 shrink-0 order-1 flex md:mb-0 mb-4 relative items-end self-center justify-center mx-auto text-white w-44 h-44 -mt-22;
   }
 
   .skill-title::before {
-    @apply bg-zinc-800 shadow-xl absolute w-40 h-40;
+    @apply bg-zinc-800 shadow-xl absolute w-44 h-44;
     content: "";
     z-index: -1;
     transform: rotate(-45deg);
@@ -55,7 +54,7 @@ html {
 }
 
 body {
-  @apply flex flex-col min-h-screen bg-zinc-600;
+  @apply flex flex-col min-h-screen bg-zinc-500;
 }
 
 main {
