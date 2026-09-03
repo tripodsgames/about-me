@@ -2,8 +2,8 @@
 import Handlebars from 'handlebars';
 import path from 'path';
 import virtualHtml from 'vite-plugin-virtual-html';
-import en from './src/text/en.json';
-import pt from './src/text/pt.json';
+import en from './src/text/en.json' with {type: 'json'};
+import pt from './src/text/pt.json' with {type: 'json'};
 import type { UserConfig } from 'vite';
 
 const pages = {
