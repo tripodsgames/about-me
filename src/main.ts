@@ -1,4 +1,5 @@
 import 'vanilla-tilt';
+import "./tailwind.css";
 import "./main.scss";
 
 const options: IntersectionObserverInit = {

@@ -1,8 +1,8 @@
-@use "tailwindcss";
+@reference "tailwindcss";
 
 @layer components {
   .skill-title {
-    @apply z-20 flex-shrink-0 order-1 flex md:mb-0 mb-4 relative items-end self-center justify-center mx-auto text-white w-40 h-40;
+    @apply z-20 shrink-0 order-1 flex md:mb-0 mb-4 relative items-end self-center justify-center mx-auto text-white w-40 h-40;
     margin-top: -5rem;
   }
 
@@ -18,11 +18,11 @@
       @apply md:mb-8 md:mt-8 flex justify-between items-stretch w-full flex-wrap sm:flex-nowrap;
 
       .timeline-content {
-        @apply order-1 bg-zinc-700 rounded-lg shadow-xl md:w-5/12 m-2 px-6 py-4 flex-grow;
+        @apply order-1 bg-zinc-700 rounded-lg shadow-xl md:w-5/12 m-2 px-6 py-4 grow;
       }
 
       .timeline-info {
-        @apply z-20 flex-shrink-0 order-1 md:flex items-center self-center hidden justify-between text-white mx-8 w-24 h-24;
+        @apply z-20 shrink-0 order-1 md:flex items-center self-center hidden justify-between text-white mx-8 w-24 h-24;
       }
 
       .timeline-info::before {
@@ -67,7 +67,7 @@ main {
 }
 
 .has-tooltip:hover .tooltip {
-  @apply visible z-[100];
+  @apply visible z-100;
 }
 
 .lazy.timeline-content {

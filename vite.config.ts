@@ -18,10 +18,10 @@ const pages = {
 };
 
 const config: UserConfig = {
-    root: path.join(__dirname, "src"),
+    root: path.join(import.meta.dirname, "src"),
     base: '/',
     build: {
-        outDir: path.join(__dirname, "dist"),
+        outDir: path.join(import.meta.dirname, "dist"),
         emptyOutDir: false
     },
     plugins: [
